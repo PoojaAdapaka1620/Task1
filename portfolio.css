@@ -1,0 +1,68 @@
+* {
+    background-color: #111;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.heading {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.para {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.2rem;
+
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;;
+    filter: drop-shadow(2px 2px black);
+    color: red;
+}
+
+.banner {
+    background-image: url(https://occ-0-5261-3662.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABQEXkq3NnFKvAKL_rUijU2-VQBoa8V2X-3ukOSKXqv106S5v13kU17o1ZRcsDS0fAfuh-2-BIlUhTzB-3dlyxkR5LYzbogicWb4dQBgZMcfOIefukyq0iFUiXwwLMWyQu2nvZstkpHEZsUcrxyMgjFQVBbIlDK95Ac_UzUOgao43R_XXKBXLu3YS3vlnOqa4kyFzwIOv6MQsOHzLQ8xDtEc93zSBxSD_NS8ITmLwTjxVDIt-WLC9DvZ-o7AkJq5kNa75RCm7yZCfzDSmmM4necafufO1aYDhW1rwcve_WDG9MnQBnTxtHcJQ_VaN6prjkvJGQy6ckf97HkMyuHOhmqKGo-FzT74JseD-LnTuJ15gv9n0rKnHRnb_lpuP01PMcooc4kSj9MVsmhvZJENqWXbTIrMOPkmzxSEO0fiUZi6VJdVs5bSlWY_b4WlE-AvnmSm4FEAN.jpg?r=984);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 580px;
+}
+
+.posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.posters::-webkit-scrollbar {
+    display: none; 
+}
+
+.poster {
+    margin: 0% 0.5%;
+    border-radius: 0.4%;
+}
+
+h1 {
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 0; /* Adjust this to align with the left edge */
+    padding-bottom: 2%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem; 
+    padding: 2% 0;
+}
